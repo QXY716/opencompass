@@ -1,10 +1,7 @@
 from mmengine.config import read_base
 
 with read_base():
-    from .datasets.siqa.siqa_gen import siqa_datasets
-    from .datasets.winograd.winograd_ppl import winograd_datasets
-    from .models.opt.hf_opt_125m import opt125m
-    from .models.opt.hf_opt_350m import opt350m
+    from .datasets.MedBench.medbench_gen import medbench_datasets
+    from .models.chatglm.hf_chatglm2_6b_int4 import models
 
-datasets = [*siqa_datasets, *winograd_datasets]
-models = [opt125m, opt350m]
+datasets = [*medbench_datasets]
