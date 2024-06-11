@@ -8,7 +8,7 @@ from opencompass.utils.text_postprocessors import first_capital_postprocess
 medbench_reader_cfg = dict(
     input_columns=['problem_input'], output_column='label')
 
-medbench_multiple_choices_sets = ['Med-Exam', 'DDx-basic', 'DDx-advanced', 'SafetyBench'] # 选择题，用acc判断
+medbench_multiple_choices_sets = ['Med-Exam', 'DDx-basic', 'DDx-advanced', 'MedSafety'] # 选择题，用acc判断
 
 medbench_qa_sets = ['MedHC', 'MedMC', 'MedDG', 'MedSpeQA', 'MedTreat', 'CMB-Clin'] # 开放式QA，有标答
 
