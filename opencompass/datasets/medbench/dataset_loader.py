@@ -11,7 +11,7 @@ from .constructions import ChatGPTSchema, ResultsForHumanSchema
 from .utils import extract_answer, read_jsonl, save_jsonl
 
 # define the datasets
-medbench_multiple_choices_sets = ['Med-Exam', 'DDx-basic', 'DDx-advanced', 'DDx-advanced', 'SafetyBench'] # 选择题，用acc判断
+medbench_multiple_choices_sets = ['Med-Exam', 'DDx-basic', 'DDx-advanced', 'MedSafety'] # 选择题，用acc判断
 
 medbench_qa_sets = ['MedHC', 'MedMC', 'MedDG', 'MedSpeQA', 'MedTreat', 'CMB-Clin'] # 开放式QA，有标答
 
