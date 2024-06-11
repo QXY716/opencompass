@@ -1,13 +1,13 @@
-from opencompass.models import HuggingFaceBaseModel
+from opencompass.models import HuggingFaceCausalLM
 import torch
 
 
 models = [
     dict(
-        type=HuggingFaceBaseModel,
+        type=HuggingFaceCausalLM,
         abbr='PULSE-7bv5',
-        path='/home/PULSE-7bv5',
-        tokenizer_path='/home/PULSE-7bv5',
+        path='/home/dongru/PULSE-7bv5',
+        tokenizer_path='/home/dongru/PULSE-7bv5',
         model_kwargs=dict(
             trust_remote_code=True,
             torch_dtype=torch.bfloat16,
@@ -18,6 +18,6 @@ models = [
         ),
         max_out_len=1024,
         batch_size=8,
-        run_cfg=dict(num_gpus=1),
+        run_cfg=dict(num_gpus=2),
     )
 ]
