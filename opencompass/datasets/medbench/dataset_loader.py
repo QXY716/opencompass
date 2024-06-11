@@ -233,7 +233,7 @@ def load_dataset(dataset_name,
                  end_of_example='\n',
                  chat_mode=False,
                  verbose=False):
-    test_path = os.path.join(parent_path, dataset_name + '_test.jsonl')
+    test_path = os.path.join(parent_path, dataset_name + '.jsonl')
     loaded_jsonl = read_jsonl(test_path)
     processed = []
     if setting_name == 'few-shot-CoT' or setting_name == 'few-shot':
@@ -303,7 +303,7 @@ def generate_second_stage_input(dataset_name,
 
 
 def load_dataset_as_result_schema(dataset_name, parent_path):
-    test_path = os.path.join(parent_path, dataset_name + '_test.jsonl')
+    test_path = os.path.join(parent_path, dataset_name + '.jsonl')
     loaded_jsonl = read_jsonl(test_path)
 
     processed = []
