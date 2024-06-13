@@ -17,7 +17,7 @@ models = [
             trust_remote_code=True,
         ),
         max_out_len=1024,
-        batch_size=8,
+        batch_size=1,
         run_cfg=dict(num_gpus=2),
     )
 ]
