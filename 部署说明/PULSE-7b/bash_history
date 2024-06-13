@@ -1,0 +1,500 @@
+conda activate opencompass
+ls
+la
+ls
+cd opencompass/
+ls
+ls
+sudo -i
+nvidia-smi
+cd opencompass/
+ls
+git pull
+python tools/list_configs.py
+conda activate opencompass
+python tools/list_configs.py
+cd ..
+ls
+cd ChatGLM2-6B/
+ls
+streamlit run web_demo2.py
+conda deactivate opencompass
+conda dectivate opencompass
+conda create --name llama python=3.12
+conda activate llama
+cd MedicalGPT/
+ls
+pip install -r requirements.txt --upgrade
+cd opencompass
+git pull
+ls
+git pull
+ls
+cd ..
+cd opencompass
+ls
+cd git clone https://github.com/openmedlab/PULSE
+cd ..
+ls
+git clone https://github.com/openmedlab/PULSE
+cd PULSE
+cd opencompass
+conda activate opencompass
+cd ..
+ls
+git clone https://huggingface.co/OpenMEDLab/PULSE-7bv5
+ls
+sudo -i
+echo $CUDA_HOME
+conda activate opencompass
+echo $CUDA_HOME
+conda activate
+conda activate opencompass
+python
+sudo -i
+cd opencompass
+ls -la
+python tools/list_configs.py
+python --version
+where python
+dpkg list | grep python
+conda info
+conda env list
+conda activate opencompass
+python --version
+pip list
+ls -la
+python tools/list_configs.py
+python run.py --models chatglm2_6b_int4 --datasets siqa_gen
+python run.py configs/eval_demo.py --debug
+conda deactivate opencompass
+pip list
+conda dectivate opencompass
+conda deactivate
+ls
+cd ..
+ls -la
+cd PULSE
+ls
+conda env create -f llm.yml
+conda activate llm
+python web_demo_gradio.py
+conda deactivate
+conda activate opencompass
+python web_demo_gradio.py
+conda deactivate
+conda remove --name
+conda remove --name llm
+conda env list
+conda remove --name llm
+conda remove --name llm --all
+conda env list
+conda remove --name llama --all
+conda clean -a
+cd ..
+conda create --name gptq python=3.9 -y
+conda activate gptq
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+pip list
+conda list
+ls -la
+git clone -b pulse https://github.com/hanrui1sensetime/GPTQ-for-PULSE.git
+cd GPTQ-for-PULSE/
+pip install -r requirements.txt
+python setup_cuda.py install
+nvcc
+conda install cuda
+nvcc
+python setup_cuda.py install
+conda list
+conda show cuda
+
+python setup_cuda.py install
+cd /usr/local/
+ls -la
+pip show torch
+python
+cd /
+cd /home/
+cd dongru/n
+cd dongru/
+ls
+cd opencompass/
+pip install -e .
+cd /
+ls
+cd /home/dongru/
+ls
+cd GPTQ-for-PULSE/
+ls
+python setup_cuda.py install
+conda env -list
+conda env --list
+conda env list
+conda remove --name gptq --all
+conda env list
+conda clean -all
+git clone --depth=1 --branch=main https://github.com/armbian/build
+cd build
+./compile.sh
+sudo systemctl status docker
+$USER
+echo $USER
+sudo usermod -aG docker $USER
+newgrp docker
+groups $USER
+./compile.sh
+docker ps -a
+ls -la
+sudo rm -rf build/
+cd opencompass
+git pull
+git info
+git remote -v
+git remote rm origin
+git remote -v
+git remote add https://github.com/QXY716/opencompass.git
+git remote add origin https://github.com/QXY716/opencompass.git
+git remote -v
+git remote add upstream https://github.com/open-compass/opencompass.git
+git remote -v
+git pull upstream
+git pull upstream main
+git config --global user.name QXY
+git config --global user.email 2387995457@qq.com
+git push
+git push origin main
+git log
+git push origin main
+cd opencompass/
+git commit 
+git log
+git reflog
+git show
+git status
+conda env list
+conda clean -a
+conda activate opencompass
+cd opencompass
+python run.py configs/eval_demo.py --debug
+git pull
+python run.py configs/eval_demo.py --debug
+ls -la
+unzip OpenCompassData-complete-20240325.zip 
+cd data
+find . -name "*.zip" -exec unzip "{}" \;
+cd ..
+python run.py configs/eval_demo.py --debug
+sudo -i
+lscpu
+ls -la
+cd PULSE
+ls
+git pull
+cd ..
+cd PULSE-7bv5
+ls
+git pull
+cd ..
+$ flatpak list
+sudo -i
+cd GPTQ-for-PULSE/
+ls
+git pull
+nvidia-smi
+nvcc -v
+nvcc -V
+dpkg list
+dpkg -l
+dpkg -l | grep cuda
+dpkg -l | grep fltak
+dpkg -l | grep nv
+cd opencompass
+ls
+zip -r OpenCompassData-complete.zip data
+cd opencompass/
+conda activate opencomapss
+conda activate opencompass
+conda info --envs
+python run.py configs/eval_demo.py --debug
+ls -la
+sudo rm -rf opencompass/
+sudo rm -rf MedicalGPT/
+git clone git@github.com:QXY716/opencompass.git
+git clone https://github.com/QXY716/opencompass.git
+cd opencompass/
+ls
+uzip OpenCompassData-complete.zip 
+unzip OpenCompassData-complete.zip 
+conda activate opencomapss
+conda activate opencompass
+pip install -e .
+python tools/list_configs.py
+python run.py --models hf_chatglm2_6b_int4 --datasets medbench_gen
+python run.py --models hf_chatglm2_6b_int4 --datasets medbench_gen --debug
+python run.py configs/eval_demo.py --debug
+cd ..
+ls -la
+cd GPTQ-for-PULSE
+conda activate opencompass
+echo $CUDA_HOME
+conda list
+echo $CUDA_HOME
+conda create --name gptq python=3.9 -y
+conda activate gptq
+cd GPTQ-for-PULSE
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio
+pip install -r requirements.txt
+python setup_cuda.py install
+nvcc -C
+nvcc -V
+conda install cudatoolkit
+python setup_cuda.py install
+python
+conda env config vars set CUDA_HOME="/home/dongru/.conda/envs/gptq/lib"
+conda env config vars list
+conda activate gptq
+python setup_cuda.py install
+conda env config vars list
+which cuda
+conda list
+python
+sudo swapon --show
+conda activate opencompass
+cd GPTQ-for-PULSE/
+ls -la
+python setup_cuda.py install
+conda deactivate
+ls
+conda env list
+conda clean -a
+conda remove -n qptq
+conda remove --name qptq --all
+conda remove --name gptq --all
+conda env list
+conda create --name gptq python=3.10 pytorch torchvision pytorch-cuda -c nvidia -c pytorch -y
+cd ..
+ls
+cd opencompass/
+conda activate opencompass
+pip install -e .
+cd ..
+conda deactivate
+conda activate gptq
+cd GPTQ-for-PULSE/
+pip install -r requirements.txt
+python setup_cuda.py install
+CUDA_VISIBLE_DEVICES=0 python bloom.py /home/dongru/PULSE-7bv5 custom --wbits 4 --act-order --groupsize 128 --save pulse7b-4bit-128g.bin
+CUDA_VISIBLE_DEVICES=0 python bloom.py /home/dongru/PULSE-7bv5 custom --wbits 4 --act-order --groupsize 1024 --save pulse7b-4bit.bin
+CUDA_VISIBLE_DEVICES=0 python bloom.py /home/dongru/PULSE-7bv5 custom --wbits 4 --act-order --groupsize 1024 --save pulse7b-4bit.bin --batch-size 1
+cd opencompass/
+conda activate opencompass
+ls -la
+python run.py configs/eval_demo.py -w outputs/demo
+python tools/list_configs.py
+python run.py --models hf_pulse_7b  --datasets mmlu_ppl
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets mmlu_ppl
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets mmlu_ppl --debug
+sudo -i
+nvidia-smi
+ls -la
+tree
+sudo apt  install tree
+tree
+cd opencompass/
+conda activate opencompass
+python run.py configs/eval_demo.py -w outputs/demo --debug
+conda activate opencompass
+cd opencompass/
+ls
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets medbench
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets medbench_datasets
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets medbench_gen
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+ssh -p 20530 root@connect.cqa1.seetacloud.com
+sudo -i
+nvidia-smi
+conda activate opencompass
+cd opencompass/
+ls
+python run.py configs/eval_demo.py -w outputs/demo --debug
+dmidecode -t memory
+sudo -i
+./aida64_x64
+nvidia-smi
+conda activate opencompass/
+conda activate opencompass
+cd opencompass/
+ls
+CUDA_VISIBLE_DEVICES=0 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+conda env list
+conda activate gptq
+ls
+cd ..
+cd GPTQ-for-PULSE/
+LS
+ls
+cd ..
+cd PULSE
+ls
+python web_demo_gradio.py
+conda deactivate
+conda env create -f llm.yml
+conda activate llm
+
+python web_demo_gradio.py
+conda deactivate
+ls
+cd ..
+cd ChatGLM2-6B/
+ls -la
+conda activate opencompass
+streamlit run web_demo2.py
+cd ..
+ls
+cd opencompass/
+ls
+cd opencompass
+ls
+cd ..
+ls
+CUDA_VISIBLE_DEVICES=0,1 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+python run.py --models hf_chatglm2-6b-int4  --datasets medbench_gen --debug
+python run.py --models chatglm2-6b-int4  --datasets medbench_gen --debug
+python run.py --models hf_chatglm2_6b_int4  --datasets medbench_gen --debug
+python run.py --models hf_chatglm2_6b  --datasets medbench_gen --debug
+python run.py --models hf_chatglm2_6b_int4  --datasets medbench_gen --debug
+cd opencompass/
+conda activate opencompass
+CUDA_VISIBLE_DEVICES=0,1 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+coremark
+ssh-keygen -t rsa -C '2387995457@qq.com'
+cd /home/dongru/.ssh/
+ls
+cd /home/dongru/.ssh/
+ssh-keygen -t rsa -C '2387995457@qq.com'
+ls
+ssh -T git@github.com
+ls
+conda deactivate
+cd opencompass/
+git status
+git push
+git clone git@github.com:QXY716/opencompass.git
+conda activate opencompass
+cd opencompass/
+ls
+pip install -e .
+python run.py --models hf_chatglm2_6b_int4  --datasets medbench_gen --debug
+git revert a3711f5
+python run.py --models hf_chatglm2_6b_int4  --datasets medbench_gen --debug
+cd ..
+cd PULSE
+conda deactivate
+ls
+conda activate llm
+python web_demo_gradio.py
+conda env list
+pip install accelerate
+pip install bitsandbytes
+python web_demo_gradio.py
+num_gpus = len(args.gpu.split(","))
+python web_demo_gradio.py
+pip install safetensors
+python web_demo_gradio.py
+python web_demo_gradio.py --gpu 0,1
+python web_demo_gradio.py
+conda deactivate
+conda activate opencompass
+ls
+cd ..
+ls
+cd ChatGLM2-6B/
+ls
+streamlit run web_demo2.py
+cd ../PULSE
+ls
+python web_demo_gradio.py
+conda deactivate
+conda activate llm
+python web_demo_gradio.py
+conda deactivate
+conda env list
+conda activate gptq
+cd ../GPTQ-for-PULSE/
+ls
+CUDA_VISIBLE_DEVICES=0,1 python bloom.py /home/dongru/PULSE-7bv5  custom --wbits 4 --act-order --groupsize 128 --save pulse7b-4bit-128g.bin
+pip install -r requirements.txt
+python setup_cuda.py install
+CUDA_VISIBLE_DEVICES=0,1 python bloom.py /home/dongru/PULSE-7bv5  custom --wbits 4 --act-order --groupsize 128 --save pulse7b-4bit-128g.bin
+pip install jsonlines
+CUDA_VISIBLE_DEVICES=0,1 python bloom.py /home/dongru/PULSE-7bv5  custom --wbits 4 --act-order --groupsize 128 --save pulse7b-4bit-128g.bin
+pip install json_lines
+CUDA_VISIBLE_DEVICES=0,1 python bloom.py /home/dongru/PULSE-7bv5  custom --wbits 4 --act-order --groupsize 128 --save pulse7b-4bit-128g.bin
+sudo -i
+nvidia-smi
+conda activate llm
+cd PULSE
+ls
+python web_demo_gradio.py
+pip install -q -U bitsandbytes
+pip install -q -U git+https://github.com/huggingface/transformers.git
+pip install -q -U git+https://github.com/huggingface/peft.git
+pip install -q -U git+https://github.com/huggingface/accelerate.git
+python web_demo_gradio.py
+pip install -q -U bitsandbytes
+pip install -q -U git+https://github.com/huggingface/peft.git
+pip install -q -U git+https://github.com/huggingface/accelerate.git
+python web_demo_gradio.py
+nvidia-smi
+nvidia-smi
+conda activate opencompass
+conda activate llm
+cd PULSE
+ls
+python web_demo_gradio.py
+accelerate pip install --upgrade accelerate
+pip install --upgrade accelerate
+pip install --upgrade transformers
+python web_demo_gradio.py
+conda deactivate
+ls
+cd ..
+cd opencompass/
+ls
+CUDA_VISIBLE_DEVICES=0,1 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+pip install --upgrade accelerate
+pip install -q -U bitsandbytes
+CUDA_VISIBLE_DEVICES=0,1 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+git clone https://github.com/coolsnowwolf/lede.git
+conda activate opencompass
+cd opencompass/
+CUDA_VISIBLE_DEVICES=0,1 python run.py --models hf_pulse_7b  --datasets medbench_gen --debug
+git lfs install
+cd opencompass/
+git push
+cd ..
+sudo rm -rf GPTQ-for-PULSE/
+cd opencompass/
+git push
+conda env list
+conda remove -n gptq -a
+conda remove -n gptq --all
+conda env list
+conda clean -a
+conda activate opencompass
+ls
+python web_demo_gradio.py
+conda activate llm
+ls
+cd ../PULSE-7bv5/
+ls
+cd ../PULSE
+ls
+python web_demo_gradio.py
+sudo -i
+cd opencompass/
+git push
+cd opencompass/
+git push
