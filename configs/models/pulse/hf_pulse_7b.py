@@ -1,7 +1,6 @@
 from opencompass.models import HuggingFaceCausalLM
 import torch
 
-
 models = [
     dict(
         type=HuggingFaceCausalLM,
@@ -11,6 +10,7 @@ models = [
         model_kwargs=dict(
             trust_remote_code=True,
             torch_dtype=torch.bfloat16,
+            ## load_in_4bit=True,
             device_map='auto',
         ),
         tokenizer_kwargs=dict(
