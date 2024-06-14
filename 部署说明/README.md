@@ -56,6 +56,9 @@ https://blog.csdn.net/weixin_38705903/article/details/86533863
     镜像网站地址：https://hf-mirror.com/
 - 安装hf-mirror-cli(解决git从huggingface镜像站上下载速度慢的问题)：
 <br>https://github.com/wangshuai67/hf-mirror-cli.git
+    ```python
+    pip install hf-cli
+    ```
 ## **mkl-service错误解决办法**
 - 问题描述：[pytorch多卡训练](https://www.zywvvd.com/notes/study/deep-learning/bug-fix/mkl-service-err-message/mkl-service-err-message/) | [opencompass评测内容为空](https://github.com/open-compass/opencompass/issues/436)
 - 错误信息：
