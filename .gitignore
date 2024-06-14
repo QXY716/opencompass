@@ -120,7 +120,6 @@ turbomind/
 *.onnx
 *.gz
 *.gz.*
-*.png
 *.txt
 *.jpg
 *.csv
